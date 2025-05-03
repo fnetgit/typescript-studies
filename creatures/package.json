@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "dev": "clear && ts-node src/index.ts",
+    "build": "rm -rf build && tsc"
+  }
+}

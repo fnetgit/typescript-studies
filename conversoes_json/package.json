@@ -1,0 +1,10 @@
+{
+  "name": "conversoes_json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "clear && ts-node src/index.ts",
+    "build": "rm -rf build && tsc"
+  }
+}
